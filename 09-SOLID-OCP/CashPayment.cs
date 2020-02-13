@@ -10,7 +10,7 @@ namespace _09_SOLID_OCP
     {
 
         bool IPaymentMethod.processPayment(double amount)
-        {
+        { 
             return CashPayment.processPayment(amount);
             
         }
